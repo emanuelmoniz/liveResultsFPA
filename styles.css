@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.header>h1 {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #454d55;
+  margin-top: 20px;
+  box-shadow: 0 0 8px 0px rgba(0,0,0,0.2);
+}
+
+.links>h2 {
+  width: 100%;
+  font-size: 1.35rem;
+}
+
+.links>h2>a{
+  background-color: #e6e6e6;
+  text-decoration: none!important;
+  color: #3a3a3a;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.links>h2>a:hover{
+  background-color: #3a3a3a;
+  text-decoration: none!important;
+  color: #e6e6e6;
+  padding: 15px;
+  text-align: center;
+  display: block;
+}
+
+td.telerik-reTableColcenter-4 {
+  text-align: center;
+}
+
+.theader-center{
+  text-align: center;
+}
+
+table {
+  background-color: white;
+  box-shadow: 0 0 8px 0px rgba(0,0,0,0.2);
+}
+
+#ContentPlaceHolder1_gvprovas_Image3_0{
+  opacity: 0.75;
+/*  width: 20px;*/  /* resize of logo if we want */
+}
+
+#ContentPlaceHolder1_gvprovas_Image1_0{
+  opacity: 0.75;
+/*  width: 20px;*/  /* resize of logo if we want */
+}
+
+
+#ContentPlaceHolder1_gvprovas_Image3_0:hover{
+  opacity: 1;
+}
+
+#ContentPlaceHolder1_gvprovas_Image1_0:hover{
+  opacity: 1;
+}
