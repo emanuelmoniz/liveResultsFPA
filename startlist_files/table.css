@@ -1,0 +1,293 @@
+﻿h1 {
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 18px;
+    font-family: Arial;
+    color: #000000;
+}
+
+
+h2 {
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 13px;
+    font-family: Arial;
+    color: #000000;
+}
+
+
+
+.BtnMenu {
+    background-color: #f2f2f2;
+    border: solid 1px #000000;
+    color: #000000;
+    width: 75px;
+    width: 80px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.BtnMenuSelected {
+    background-color: #750000;
+    color: #ffffff;
+    border: solid 1px #000000;
+    width: 80px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.gridcentro td, .gridcentro th {
+    text-align: center;
+}
+
+.FPALRTable {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    box-shadow: 10px 10px 5px #888888;
+    border: 1px solid #000000;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+    .FPALRTable table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .FPALRTable tr:last-child td:last-child {
+        -moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .FPALRTable table tr:first-child td:first-child {
+        -moz-border-radius-topleft: 0px;
+        -webkit-border-top-left-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    .FPALRTable table tr:first-child td:last-child {
+        -moz-border-radius-topright: 0px;
+        -webkit-border-top-right-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .FPALRTable tr:last-child td:first-child {
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .FPALRTable tr:hover td {
+        background-color: #ffffff;
+    }
+
+    .FPALRTable td {
+        vertical-align: middle;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        border-width: 0px 1px 1px 0px;
+        text-align: left;
+        padding: 7px;
+        font-size: 12px;
+        font-family: Arial;
+        font-weight: normal;
+        color: #000000;
+    }
+
+    .FPALRTable tr:last-child td {
+        border-width: 0px 1px 0px 0px;
+    }
+
+    .FPALRTable tr td:last-child {
+        border-width: 0px 0px 1px 0px;
+    }
+
+    .FPALRTable tr:last-child td:last-child {
+        border-width: 0px 0px 0px 0px;
+    }
+
+    .FPALRTable tr:first-child td {
+        background: -o-linear-gradient(bottom, #005fbf 5%, #005fbf 100%);
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #005fbf) );
+        background: -moz-linear-gradient( center top, #005fbf 5%, #005fbf 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#005fbf");
+        background: -o-linear-gradient(top,#005fbf,005fbf);
+        background-color: #005fbf;
+        border: 0px solid #000000;
+        text-align: center;
+        border-width: 0px 0px 1px 1px;
+        font-size: 12px;
+        font-family: Arial;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .FPALRTable tr:first-child:hover td {
+        background: -o-linear-gradient(bottom, #005fbf 5%, #005fbf 100%);
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #005fbf) );
+        background: -moz-linear-gradient( center top, #005fbf 5%, #005fbf 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#005fbf");
+        background: -o-linear-gradient(top,#005fbf,005fbf);
+        background-color: #005fbf;
+    }
+
+    .FPALRTable tr:first-child td:first-child {
+        border-width: 0px 0px 1px 0px;
+    }
+
+    .FPALRTable tr:first-child td:last-child {
+        border-width: 0px 0px 1px 1px;
+    }
+
+/*Inicio Tabela*/
+.telerik-reTable-4 {
+    border-collapse: collapse;
+    border: solid 0px;
+    font-family: Tahoma;
+    width: 100%;
+}
+
+    .telerik-reTable-4 tr.telerik-reTableHeaderRow-4 {
+        border-width: 1.0pt 1.0pt 3.0pt 1.0pt;
+        margin-top: 0in;
+        margin-right: 0in;
+        margin-bottom: 10.0pt;
+        margin-left: 0in;
+        line-height: 115%;
+        font-size: 11.0pt;
+        font-family: "Calibri", "sans-serif";
+        background: #4F81BD;
+        padding: 0in 5.4pt 0in 5.4pt;
+        color: #FFFFFF;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableHeaderFirstCol-4 {
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableHeaderLastCol-4 {
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableHeaderOddCol-4 {
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableHeaderEvenCol-4 {
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 tr.telerik-reTableOddRow-4 {
+        border-width: 1pt;
+        color: #666666;
+        font-size: 10pt;
+        vertical-align: top;
+        border-bottom-style: solid;
+        border-bottom-color: #4F81BD;
+    }
+
+    .telerik-reTable-4 tr.telerik-reTableEvenRow-4 {
+        color: #666666;
+        font-size: 10pt;
+        vertical-align: top;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableFirstCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        padding: 0in 5.4pt 0in 5.4pt;
+        border-bottom-style: solid;
+        border-left-style: solid;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableLastCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableOddCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        padding: 0in 5.4pt 0in 5.4pt;
+        border-bottom-style: solid;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableEvenCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        padding: 0in 5.4pt 0in 5.4pt;
+        border-bottom-style: solid;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        padding: 0in 5.4pt 0in 5.4pt;
+        border-bottom-style: solid;
+    }
+     
+
+        .telerik-reTable-4 td.telerik-reTableColcenter-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        padding: 0in 5.4pt 0in 5.4pt;
+        border-bottom-style: solid;
+        text-align: center
+    }
+
+    .telerik-reTable-4 tr.telerik-reTableFooterRow-4 {
+        color: #355C8C;
+        background-color: #FFFFFF;
+        font-size: 10pt;
+        vertical-align: top;
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableFooterFirstCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableFooterLastCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableFooterOddCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        border-bottom-style: solid;
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
+
+    .telerik-reTable-4 td.telerik-reTableFooterEvenCol-4 {
+        border-width: 1pt;
+        border-color: #4F81BD;
+        border-bottom-style: solid;
+        padding: 0in 5.4pt 0in 5.4pt;
+    }
